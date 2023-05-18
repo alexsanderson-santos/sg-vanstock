@@ -1,0 +1,109 @@
+{
+    "configVersion": 2,
+    "appIdentifier": "com.sgvanstock.mobile.developerapp",
+    "appName": "AVAIL",
+    "bundleName": {
+        "main": "SGVanStock",
+        "dev": "SGVanStockDev"
+    },
+    "deviceTarget": {
+        "phone": true,
+        "tablet": true
+    },
+    "orientation": {
+        "portrait": true,
+        "landscape": false
+    },
+    "permissions": [
+        {
+            "title": "Location - When In Use Usage",
+            "name": "NSLocationWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - Always And When in Use Usage",
+            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Internet",
+            "name": "android.permission.INTERNET",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "System Alert Window",
+            "name": "android.permission.SYSTEM_ALERT_WINDOW",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Location - Always Usage",
+            "name": "NSLocationAlwaysUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        }
+    ],
+    "capabilities": {
+        "deepLink": {
+            "value": "availtest",
+            "enabled": true,
+            "android": {
+                "webLinks": [
+                    {
+                        "host": "",
+                        "path": ""
+                    }
+                ]
+            }
+        },
+        "maps": {
+            "value": "",
+            "enabled": false
+        },
+        "mapsIos": {
+            "enabled": false
+        },
+        "pushNotifications": {
+            "enabled": false
+        },
+        "crashlytics": {
+            "enabled": false
+        },
+        "firebaseAndroid": {
+            "enabled": false
+        },
+        "firebaseIos": {
+            "enabled": false
+        },
+        "localNotifications": {
+            "enabled": false
+        },
+        "appCenterOTA": {
+            "enabled": false
+        },
+        "nativeOTA": {
+            "enabled": true
+        }
+    },
+    "appVersion": "3.3.111",
+    "buildNumber": 4614,
+    "runtimeUrl": "https://vanstock-datamigration.mendixcloud.com"
+}
