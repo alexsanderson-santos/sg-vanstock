@@ -100,10 +100,10 @@
             "enabled": false
         },
         "nativeOTA": {
-            "enabled": true
+            "enabled": false
         }
     },
-    "appVersion": "3.3.111",
-    "buildNumber": 4614,
+    "appVersion": "3.3.122",
+    "buildNumber": 4622,
     "runtimeUrl": "https://vanstock-datamigration.mendixcloud.com"
 }
